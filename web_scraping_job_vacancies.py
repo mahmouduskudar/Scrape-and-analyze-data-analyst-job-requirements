@@ -142,9 +142,6 @@ output_file_path = "updated_data20000.xlsx"  # Update with the desired output fi
 # Read the Excel file into a DataFrame
 data = pd.read_excel(input_file_path)  # For Excel file
 
-data = data[15000:20000]
-# data = data.head(20)
-
 # Iterate through each link in the "Link" column
 for index, row in tqdm(data.iterrows(), desc="Processing", total=len(data)):
     link = row["Ad Link"]
