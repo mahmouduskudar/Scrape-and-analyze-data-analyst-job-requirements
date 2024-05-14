@@ -8,4 +8,3 @@ I start to get the link of Ad from Page of Ads List which named (is-ilanlari) an
 
 - I Included the file of Links Which called (job_listings.xlsx) and it has all links I could get from the website for openned job Ads.
 - Also, I included the file of the job requirements and it named (job_final.xlsx) and it has all provided information about each Ad.
-- Moreover, I added A file for Data after prepear to use to train model (AI) and it called (data.xlsx).
